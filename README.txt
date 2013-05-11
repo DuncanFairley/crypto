@@ -20,7 +20,7 @@ Compile DLL/SO
 ----------------------------------------------------------------------
 If you wish to compile the library yourself in order to take advantage
 of whichever optimization flags, the source code is available at
-https://github.com/DuncanFairley/byondcrypto
+https://github.com/DuncanFairley/crypto
 The crypto++ library from http://cryptopp.com is required.
 
 
