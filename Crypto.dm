@@ -13,6 +13,6 @@
   */
 
 proc/__get_crypto_lib_name()
-	return world.system_type == MS_WINDOWS ? "./libcrypto.dll" : "./libcrypto.so"
+	return world.system_type == MS_WINDOWS ? "./byondcrypto.dll" : "./byondcrypto.so"
 proc/SHA256(hash as text)
 	return call(__get_crypto_lib_name(),"SHA256")(hash)
